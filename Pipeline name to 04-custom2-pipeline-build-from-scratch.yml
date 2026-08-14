@@ -8,10 +8,12 @@
 trigger:
 - main
 
-# Variablesvariables:
+# Variables
+variables:
   tag: '$(Build.BuildId)'
 
-stages:# Build Stage 
+stages:
+# Build Stage 
 - stage: Build
   displayName: Build Stage
   jobs:
